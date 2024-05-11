@@ -18,7 +18,7 @@ const FooterLinks = () => {
             className='hidden dark:block mb-4'
             alt='footer'
             />
-            <div className='mb-12'>Tomorrow's Vision, Today!</div>
+            <div className='mb-12'>Tomorrow&apos;s Vision, Today!</div>
             <Socials/>
         </div>
         <div className='flex flex-col gap-2 sm:items-start items-center'>
