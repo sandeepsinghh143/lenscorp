@@ -10,11 +10,13 @@ const FooterLinks = () => {
             <Image src={"https://lenscorp.ai/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fnav_logo.e5fb945a.png&w=96&q=75"} className='dark:hidden mb-4'
             width={80}
             height={80}
+            alt='footer'
             />
             <Image src={"https://lenscorp.ai/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FnewLogo.9985891c.png&w=96&q=75"}
             width={80}
             height={80}
             className='hidden dark:block mb-4'
+            alt='footer'
             />
             <div className='mb-12'>Tomorrow's Vision, Today!</div>
             <Socials/>

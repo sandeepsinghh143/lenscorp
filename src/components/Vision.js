@@ -10,8 +10,8 @@ const Vision = () => {
         <div className='w-1/2 m-auto text-center text-2xl'>Explainable AI (XAI) is an emerging subject of machine learning research that refers to strategies that try to provide transparency to typically opaque AI models and their predictions.</div>
         {/*//TODO timeline */}
         <div className='timeline relative lg:w-[70%] w-[80%] m-auto'>
-                {visionData.map((vision)=>(
-                    <VisionCard vision={vision}/>
+                {visionData.map((vision,i)=>(
+                    <VisionCard key={i} vision={vision}/>
                 ))}
         </div>
     </div>

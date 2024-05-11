@@ -12,13 +12,13 @@ const Features = () => {
         </div>
 
         <div className='flex flex-wrap items-center justify-center gap-x-2 md:w-full m-auto lg:w-2/3 xl:w-1/2'>
-            {features.map((feature)=>(
-                <div className='p-2 sm:w-[45%] w-[90%] m-auto'>✔️ {feature}</div>
+            {features.map((feature,i)=>(
+                <div key={i} className='p-2 sm:w-[45%] w-[90%] m-auto'>✔️ {feature}</div>
             ))}
         </div>
         <div className='flex flex-wrap justify-center items-center m-auto gap-4'>
-            {otherFeatures.map((feature)=>(
-                <FeatureCard feature={feature}/>
+            {otherFeatures.map((feature,i)=>(
+                <FeatureCard key={i} feature={feature}/>
             ))}
         </div>
     </div>

@@ -9,8 +9,8 @@ const Services = () => {
         <div className='text-center text-3xl'>SERVICES</div>
         <div className='text-7xl text-center my-20'>We provide Artificial Intelligence Services</div>
         <div className='flex flex-wrap lg:w-[1000px] w-full m-auto justify-evenly gap-10'>
-            {services.map((service)=>(
-                <ServiceCard service={service}/>
+            {services.map((service,i)=>(
+                <ServiceCard key={i} service={service}/>
             ))}
         </div>
     </div>

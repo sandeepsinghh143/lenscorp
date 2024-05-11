@@ -12,7 +12,7 @@ const About = () => {
             <div className='flex justify-between items-center xl:w-1/2 lg:w-1/3 w-full'>
             <div className='flex flex-col justify-center items-center lg:items-start w-3/4 gap-8 m-auto'>
                 <h3 className='sm:text-5xl text-4xl font-medium mb-10'>Welcome To LENS</h3>
-                <p>We put our hearts, souls and sweat into designing and developing custom AI - powered solutions for your business so you don't have to.</p>
+                <p>We put our hearts, souls and sweat into designing and developing custom AI - powered solutions for your business so you don&apos;t have to.</p>
                 <Link href={"/company"} className='border border-black dark:border-white w-44 text-center p-3 rounded-xl'>Learn More</Link>
             </div>
             </div>
