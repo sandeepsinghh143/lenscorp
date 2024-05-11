@@ -29,7 +29,7 @@ const Header = () => {
         <nav className='md:flex justify-between gap-8 items-center hidden'>
             <Link href={"https://makemyweb.ai/en"} target='blank'>MakeMyWeb.</Link>
             <Link href={"/"}>Home</Link>
-            <Link href={"/about"}>About</Link>
+            <Link href={"/company"}>About</Link>
             <Link href={"/blogs"}>Blogs</Link>
             <ThemeSwitcher/>
         </nav>
