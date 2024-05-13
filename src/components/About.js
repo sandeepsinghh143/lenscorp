@@ -19,7 +19,7 @@ const About = () => {
 
             {/* //Todo about section image */}
             <div className='xl:w-1/2 lg:w-2/3 w-full flex justify-center items-center p-10'>
-              <div className='h-[400px] overflow-hidden border-8 border-white rounded-xl text-center'>
+              <div className='h-fit md:h-[400px] overflow-hidden border-8 border-white rounded-xl text-center'>
                 <Image src="https://lenscorp.ai/_next/image?url=%2FImages%2FaboutLatest.webp&w=640&q=75" alt="about" width={400} height={400} className='rounded-xl -mt-40'/>
                 </div>
             </div>

@@ -3,7 +3,7 @@ import React from 'react'
 
 const Clients = () => {
   return (
-    <div className='p-10'>
+    <div className='p-10 max-w-full overflow-x-hidden'>
         <h1 className='text-center text-4xl font-semibold'>We Work With Amazing Clients</h1>
         <div className='flex justify-center items-center gap-8 p-20 clients dark:hidden'>
             <Image src={"https://lenscorp.ai/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FCo_1.ad2ee302.png&w=256&q=75"} alt='client' width={200} height={200}/>
