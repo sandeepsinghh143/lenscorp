@@ -8,7 +8,7 @@ const ThemeSwitcher = dynamic(()=>import("./ThemeSwitcher"),{ssr:false});
 
 const Header = () => {
   return (
-    <header className='p-2 fixed w-full max-w-screen bg-white dark:bg-[#121010] z-50 top-0'>
+    <header className='p-2 sticky w-full max-w-screen bg-white dark:bg-[#121010] z-50 left-0 top-0'>
     <div className='flex justify-between items-center w-10/12 m-auto'>
 
         {/* logo */}
