@@ -13,14 +13,14 @@ const MeetTrueAI = () => {
             height={400}
             />
         </div>
-        <div className='text-white text-2xl sm:flex hidden flex-col items-center gap-8 p-6 md:p-0 w-1/2 md:w-1/3'>
+        <div className='text-white text-2xl flex flex-col items-center gap-8 p-6 md:p-0 w-full md:w-1/3'>
             <div className='text-6xl'>Meet Tru-AI</div>
             <div>Design. Create. Deploy.</div>
             <div>___ the Future of AI | Power to EDIT</div>
             <div className='text-base'>Based On Your Website & Traffic Trends, Tru-AI Optimises Your Website</div>
             <Link href={"https://makemyweb.ai/en"} className='rounded-xl py-3 px-6 hover:bg-white hover:text-black hover:px-9 border border-white'>Learn More</Link>
         </div>
-        <div className='sm:w-[30%] w-full rounded-l-3xl sm:h-88 relative'>
+        <div className='sm:w-[30%] hidden md:block w-full rounded-l-3xl sm:h-88 relative'>
             <video src="https://res.cloudinary.com/detwrhe0k/video/upload/v1691730954/lenscorp-website/product-intro_1_dmajx1_qaemeu.mp4" autoPlay={true} muted className='overflow-hidden w-full h-full z-0 rounded-l-full'/>
         </div>
     </div>

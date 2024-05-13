@@ -14,7 +14,7 @@ import Vision from "@/components/Vision";
 
 export default function Home() {
   return (
-    <div className="w-full dark:bg-black">
+    <div className="max-w-full dark:bg-black">
       <HeroSection/>
       <About/>
       <Services/>

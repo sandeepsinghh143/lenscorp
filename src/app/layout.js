@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" suppressHydrationWarning>
       <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-      <body className={inter.className+" text-lg w-screen overflow-x-hidden"}>
+      <body className={inter.className+" text-lg max-w-screen overflow-x-hidden"}>
         <ThemeProvider attribute="class" storageKey = 'theme'>
           <Header/>
         {children}

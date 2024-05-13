@@ -5,7 +5,7 @@ import BlogCard from './BlogCard'
 
 const Blogs = () => {
   return (
-    <div className='xl:w-2/3 w-[90%] m-auto py-20 flex flex-col gap-4 items-center'>
+    <div className='xl:max-w-2/3 max-w-[90%] m-auto py-20 flex flex-col gap-4 items-center'>
         <div>OUR BLOGS</div>
         <div className='text-7xl w-[70%] text-center p-4'>Inhouse Mindscape</div>
         <div>
